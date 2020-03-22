@@ -10,5 +10,6 @@ The non-GPU version uses only math, matplotlib and numpy and is fully commented
 
 The GPU version requires numba and a CUDA GPU
 
+not realtime
+
 ![]((standingWave.gif)
-(not realtime)

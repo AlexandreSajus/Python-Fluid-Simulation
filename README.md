@@ -1,5 +1,5 @@
 # Python-2D-SPH
-A Python 2D fluid simulation using SPH and GPU acceleration
+A Python 2D fluid simulation using SPH
 
 ![](standingWave.gif)
 

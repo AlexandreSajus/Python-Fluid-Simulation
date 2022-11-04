@@ -12,15 +12,17 @@ Implementing smoothed particle hydrodynamics (SPH) in Python using this <a href=
 
 ## **Installation**
 
+Make sure you have Python installed on your computer. Then, in a terminal, run the following commands:
+
 **1. Install the package with pip in your terminal:**
 
-```
+```bash
 pip install git+https://github.com/AlexandreSajus/Python-Fluid-Simulation.git
 ```
 
 **2. Run the simulation:**
 
-```
+```bash
 python -m pythonsph
 ```
 

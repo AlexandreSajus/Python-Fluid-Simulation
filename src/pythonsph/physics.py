@@ -1,3 +1,5 @@
+"""Utilities and physics calculations"""
+
 from math import sqrt
 
 from pythonsph.config import Config

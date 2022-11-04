@@ -1,3 +1,5 @@
+"""Configuration file defining the simulation parameters."""
+
 # Simulation parameters
 N = 250  # Number of particles
 SIM_W = 0.5  # Simulation space width
@@ -22,10 +24,13 @@ VEL_DAMP = 0.5  # Velocity reduction factor when particles are going above MAX_V
 
 
 class Config:
+    """Contains the simulation parameters and the physics parameters."""
+
     def __init__(self):
         return None
 
     def return_config(self):
+        """Returns the simulation parameters and the physics parameters."""
         return (
             N,
             SIM_W,

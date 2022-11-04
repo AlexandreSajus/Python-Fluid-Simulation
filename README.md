@@ -1,4 +1,7 @@
 # Python-2D-SPH
+
+![Pylint Score](assets/pylint.svg)
+
 A Python 2D fluid simulation using SPH
 
 ![](assets/standingWave.gif)

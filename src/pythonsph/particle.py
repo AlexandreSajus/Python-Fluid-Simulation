@@ -1,3 +1,5 @@
+"""Defines the Particle class."""
+
 from math import sqrt
 from pythonsph.config import Config
 

@@ -76,7 +76,7 @@ simulation_state = start(-SIM_W, DAM, BOTTOM, 0.03, N)
 
 frame = 0
 
-dam = True
+dam_built = True
 
 # Animation function
 def animate(i: int):
@@ -89,11 +89,11 @@ def animate(i: int):
     Returns:
         points: the points to be plotted
     """
-    global simulation_state, frame, dam
+    global simulation_state, frame, dam_built
     if frame == 250:  # Break the dam at frame 250
         print("Breaking the dam")
-        dam = False
-    simulation_state = update(simulation_state, dam)
+        dam_built = False
+    simulation_state = update(simulation_state, dam_built)
     # Create an array with the x and y coordinates of the particles
     visual = np.array(
         [

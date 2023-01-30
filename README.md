@@ -10,6 +10,8 @@ A Python 2D fluid simulation using SPH
 
 Implementing smoothed particle hydrodynamics (SPH) in Python using this <a href="https://web.archive.org/web/20090722233436/http://blog.brandonpelfrey.com/?p=303" target="_blank">tutorial</a>.
 
+See also the C# implementation in Unity <a href="https://github.com/AlexandreSajus/Unity-Fluid-Simulation" target="_blank">here</a>.
+
 ## **Installation**
 
 Make sure you have Python installed on your computer. Then, in a terminal, run the following commands:
